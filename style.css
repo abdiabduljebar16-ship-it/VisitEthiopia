@@ -177,6 +177,47 @@ p {
     color: hsl(38, 76%, 61%);
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 2rem;
+}
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+input {
+    height: 3rem ;
+    background-color: hsl(210, 21%, 17%);
+    color: hsl(213, 14%, 79%);
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+textarea {
+    background-color: hsl(210, 21%, 17%);
+    color: hsl(213, 14%, 79%);
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
 @media( min-width: 1280px ){
     .header {
     background-color: #151A1E;
