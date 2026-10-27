@@ -217,7 +217,37 @@ textarea {
     padding: 1rem;
     font-size: 1rem;
 }
-
+footer {
+    position: sticky;
+}
+.footercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.box a {
+    text-decoration: none;
+    color: hsl(213, 14%, 79%);
+}
+.box h2 {
+    color: hsl(38, 76%, 61%);
+    margin: 1rem 0 0;
+}
+.copyright {
+    margin: 2rem;
+   
+}
+.copyright p {
+    text-align: center;
+    line-height: 1.5rem;
+    
+}
 @media( min-width: 1280px ){
     .header {
     background-color: #151A1E;
