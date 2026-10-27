@@ -119,6 +119,7 @@ button .expandHomeBar {
     border-radius: 2rem;
     color:  black;
     background-color: yellow;
+    font-size: 1rem;
 }
 
 .adventures, .packages {
@@ -305,6 +306,15 @@ footer {
     .homeBarButton {
         display: none;
     }
+    .neverstop {
+        font-size: 4rem;
+    }
+    .exploring {
+        font-size: 3.8rem;
+    }
+    .visitEthiopia {
+       font-size: 1.5rem;
+    }
     .adventuresContainer , .packageContainer{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -324,8 +334,25 @@ footer {
     .imagecontainer {
         background-position: bottom;
     }
+    .neverstop {
+        font-size: 8rem;
+    }
+    .exploring {
+        font-size: 7rem;
+    }
+    .visitEthiopia {
+       font-size: 2rem;
+    }
+    .getStartedButton {
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
    .adventuresContainer , .packageContainer{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    form {
+        width: 50%;
     }
     .footercontainer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
