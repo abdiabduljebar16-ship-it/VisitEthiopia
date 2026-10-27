@@ -115,10 +115,10 @@ button .expandHomeBar {
     padding: 2rem;
     color: #ffffff;
 }
-.adventuresContainer , .packagesContainer{
+.adventuresContainer , .packageContainer{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 }
@@ -127,10 +127,11 @@ button .expandHomeBar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 0.5rem 2rem;
     border: 1px solid hsl(210, 12%, 25%) ;
     background-color: hsl(210, 21%, 17%);
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 .adventureImage {
@@ -165,10 +166,17 @@ h3  {
 p {
     color: hsl(213, 14%, 79%);
     line-height: 1.5;
-}/*
-button {
+}
+.adventureButton ,  .packageButton {
     margin: 2rem;
-}*/
+    width: 7rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: hsl(48, 6%, 24%);
+    color: hsl(38, 76%, 61%);
+}
+
 @media( min-width: 1280px ){
     .header {
     background-color: #151A1E;
