@@ -111,6 +111,7 @@ button .expandHomeBar {
 .adventures h2, .packages h2{
     text-align: center;
     padding: 2rem;
+    color: #ffffff;
 }
 .adventuresContainer , .packagesContainer{
     display: flex;
@@ -123,6 +124,28 @@ button .expandHomeBar {
     justify-content: center;
     align-items: center;
     margin: 2rem;
+}
+
+.adventureImage {
+    width: 10rem;
+    height: 10rem;
+}
+.adventureImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.packageImage {
+    width: 100%;
+    height: auto;
+}
+.packageImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media( min-width: 1280px ){
